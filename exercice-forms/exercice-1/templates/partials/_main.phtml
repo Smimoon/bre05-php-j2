@@ -1,0 +1,13 @@
+<main>
+    <h2>
+        <?= $pageTitle; ?>
+    </h2>
+        <form method="post" action="controllers/user-form.php">
+            <label for="email">Votre mail : </label>
+            <input type="email" name="email">
+            <br>
+            <label for="password">Votre mot de passe : </label>
+            <input type="password" name="password">
+            <button type="submit">Connexion</button>
+        </form>
+</main>
